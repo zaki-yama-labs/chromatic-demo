@@ -1,4 +1,5 @@
 import { configure, addDecorator, storiesOf } from "@storybook/react";
+import 'storybook-chromatic';
 
 const req = require.context("../src/stories", true, /\.stories\.tsx$/);
 
