@@ -4,7 +4,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-size: 12px;
+    font-size: 16px;
     white-space: nowrap;
 }
 .kuc-btn.normal:disabled,
