@@ -1,7 +1,16 @@
 {
-  "name": "my-app",
+  "name": "chromatic-demo",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "chromatic test --exit-zero-on-changes"
+  },
   "dependencies": {
     "@types/jest": "24.0.15",
     "@types/node": "12.0.10",
@@ -11,15 +20,6 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "typescript": "3.5.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "chromatic": "chromatic test"
   },
   "eslintConfig": {
     "extends": "react-app"
